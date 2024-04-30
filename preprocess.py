@@ -5,11 +5,11 @@ import tensorflow as tf
 keras = tf.keras
 import numpy as np
 
-KERN_DATASET_PATH = "deutschl/erk"
-SAVE_DIR = "dataset"
-SINGLE_FILE_DATASET = "file_dataset"
-MAPPING_PATH = "mapping.json"
-SEQUENCE_LENGTH = 64
+KERN_DATASET_PATH1 = "deutschl/erk"
+SAVE_DIR1 = "dataset"
+SINGLE_FILE_DATASET1 = "file_dataset"
+MAPPING_PATH1 = "mapping.json"
+SEQUENCE_LENGTH1 = 64
 
 # durations are expressed in quarter length
 ACCEPTABLE_DURATIONS = [
